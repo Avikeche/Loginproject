@@ -1,0 +1,23 @@
+
+<span style="color: red;font-size: 30px;">{{message}}</span>
+
+<form>
+
+    <input type="text" name="username" [(ngModel)]="user.username">
+
+    <input type="text" name="password" [(ngModel)]="user.password">
+   
+    <input type="button" value="sign in" (click)="validate()">
+
+    <input type="button" value="sing up" (click)="showRegister()">
+
+
+    <select name="subject" [(ngModel)]="subject">
+
+        <option value="java">java</option>
+
+        <option value="maths">maths</option>
+        
+
+    </select>
+</form>

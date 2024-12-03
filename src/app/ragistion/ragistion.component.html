@@ -1,0 +1,15 @@
+<form>
+
+    <input type="text" name="username" [(ngModel)]="user.username">
+
+    <input type="text" name="password" [(ngModel)]="user.password">
+
+    <input type="number" name="mobno" [(ngModel)]="user.mobno">
+
+    <input type="text" name="emailid" [(ngModel)]="user.emailid">
+
+   
+    <input type="button" value="register" (click)="saveToDB()">
+
+
+</form>

@@ -1,0 +1,25 @@
+a
+{
+    border-radius: 19%;
+    text-decoration: none;
+    display: inline-block;
+    
+    color: #171111;
+    padding: 10px;
+    box-sizing: 10px;
+   
+
+}
+
+nav
+{
+    width: 100px;
+    padding: 10px;
+    background-color: aqua;
+   
+}
+
+a:hover
+{
+    background-color: rgb(237, 16, 53);
+}
